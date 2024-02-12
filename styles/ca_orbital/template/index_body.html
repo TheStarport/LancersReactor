@@ -1,0 +1,12 @@
+<!-- DEFINE $CA_PAGE = 'index' --><!-- INCLUDE overall_header.html -->
+
+<!-- INCLUDE forumlist_body.html -->
+
+<!-- IF NEWEST_USER -->
+    {$CA_PANEL_START}
+	<h3>{L_STATISTICS}</h3>
+	<p>{TOTAL_POSTS} &bull; {TOTAL_TOPICS} &bull; {TOTAL_USERS} &bull; {NEWEST_USER}</p>
+	{$CA_PANEL_END}
+<!-- ENDIF -->
+
+<!-- INCLUDE overall_footer.html -->

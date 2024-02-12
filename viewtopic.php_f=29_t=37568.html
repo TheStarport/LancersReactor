@@ -1,0 +1,613 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb">
+<head>
+
+
+<style type="text/css">
+#global { width: 100%; }
+</style>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-language" content="en-gb" />
+<meta http-equiv="imagetoolbar" content="no" />
+
+
+<title>Lancers Reactor Forums &bull; View topic - ***Tutorial*** Creating dynamic asteroid fields</title>
+
+<link href="./styles/ca_orbital/theme/stylesheet.css" rel="stylesheet" type="text/css" media="screen, projection" />
+<link media="only screen and (max-device-width: 480px)" href="./styles/ca_orbital/theme/iphone.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body id="phpbb" class="section- ltr">
+<div id="main">
+
+<p class="top"><a id="top" name="top" accesskey="t"></a></p>
+
+<div id="global" style="margin: 0 auto;">
+
+    <p class="skiplink"><a href="#start_here">Skip to content</a></p>
+
+	<!-- header start -->
+    <div id="topnav">
+        <div class="left"></div>
+        <div class="right"></div>
+        <ul class="linklist topnav leftside">
+            <li>
+                <a href="https://the-starport.com" title="The Starport">The Starport</a>
+            </li>
+            <li>
+                <span>&bull;</span>
+                <a href="https://the-starport.net/discord" title="The Starport Discord">Discord</a>
+            </li>
+        </ul>
+    </div>
+    
+
+	<div id="logo"><a href="./index.php.html"><img src="./styles/ca_orbital/imageset/tlr_logo.png" alt="" title=""><span>Lancers Reactor Forums</span></a></div>
+	<!-- header end -->
+
+    <div id="page-header-msg">
+		<div class="block-header"><span></span><div></div></div>
+       <div class="block-content"><div class="block-inner"><div class="block-inner2">
+            	
+		<table width="100%">
+			<tbody><tr><td style="text-align:center;width:100%;">
+
+            <h2 style="color:red;">Important Message</h2>
+            <h3>You are browsing the archived Lancers Reactor forums. You cannot register or login.<br>
+            The content may be outdated and links may not be functional.</h3><br>
+            <h4>To get the latest in Freelancer news, mods, modding and downloads, go to<br>
+            	<a href="https://the-starport.com">The-Starport</a></h4>
+    	</td></tr> 
+    </tbody></table>
+    
+    	</div></div></div>
+    <div class="block-footer"><span></span><div></div></div>
+	</div>
+    <p></p>
+	<div id="page-header">
+		<div class="navbar navbar-top" id="navbar-top">
+            <div class="block-header"><span></span><div></div></div>
+            <div class="block-content"><div class="block-inner"><div class="block-inner2">
+            <ul class="linklist navlinks">
+                <li class="icon-home"><span class="home-extra"><a href="./index.php.html" accesskey="h">Board index</a>  <strong>&#8249;</strong> <a href="./viewforum.php_f=75.html">Freelancer Editing</a> <strong>&#8249;</strong> </span><a href="./viewforum.php_f=29.html">Freelancer Editing Tutorial Forum</a></li>
+            </ul>
+            <div class="block-clear"></div>
+            </div></div></div>
+            <div class="block-footer"><span></span><div></div></div>
+		</div>
+	</div>
+    <p></p>
+
+	<a name="start_here"></a>
+
+	<div id="page-body">
+		<div id="content-start"></div>
+<h2 class="leftside"><a href="./viewtopic.php_f=29_t=37568" id="topic-title">***Tutorial*** Creating dynamic asteroid fields</a></h2>
+
+<p class="rightside">
+    
+</p>
+<div class="clear"></div>
+<p class="forum-desc">Here you find the different tutorials on editing and MODing Freelancer</p>
+
+<div class="topic-actions">
+
+	<div class="buttons">
+	
+		<div class="reply-icon"><a href="" title="Post a reply"><span></span>Post a reply</a></div>
+	
+	</div>
+
+	
+		<div class="pagination">
+			6 posts
+			 &bull; Page <strong>1</strong> of <strong>1</strong>
+		</div>
+	
+
+</div>
+<div class="clear"></div>
+
+
+	<div id="p28256" class="post">
+		<div class="block-border block-block block-post block-post-first"><div class="block-header"><span></span><div></div></div><div class="block-content"><div class="block-inner"><div class="block-inner2">
+        <div class="post-maximize" style="display: none;"></div>
+        <div class="post-profile-block">
+        <div class="profile-block">
+        <div class="postprofile">
+            <div class="profile-top">
+                <p class="profile-author">
+                    <a class="profile-link popup-link" id="popup-link-0" href="javascript:void(0);">Mephistopheles</a>
+                </p>
+                
+            </div>
+            
+
+            <div class="profile-details">
+                
+            </div>
+		</div>
+		</div>
+		</div>
+		
+
+        
+		<div class="postbody">
+		    <div class="post-content">
+			
+
+			<p class="author"><a href=""><img src="./styles/ca_orbital/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a> Sun Feb 06, 2005 11:23 am <span class="post-author-inline" style="display: none;">by Mephistopheles</span></p>
+
+			<h3 class="first"><a href="#p28256" class="post-subject">***Tutorial*** Creating dynamic asteroid fields</a></h3>
+
+			
+
+			<div class="content">Dynamic asteroid fields require editing 4 seperate files.
+<br />
+<br />Solar\Asteroidarch.ini
+<br />Solar\Asteroids\Asteroid_field_name.ini
+<br />The system file you will place the field.
+<br />...and the hidden secret, FX\Explosions.ini
+<br />
+<br />1. Asteroidarch.ini.
+<br />
+<br />You will use the dynamic asteroid function to create the field. So you first make new archetypes for dynamic asteroids, but using larger 3dbs for the visual.
+<br />
+<br />Code example:
+<br />[DynamicAsteroid
+<br />nickname = DAsteroid_rock_10;&lt;--- new name for the asteroid field file
+<br />DA_archetype = solar\asteroids\models\ast_rock_10.3db;&lt;--3db found in the asteroids\models directory
+<br />material_library = solar\ast_rock.mat;&lt;---corrensponding MAT file
+<br />explosion_arch = Explosion_DAsteroid_rock_10;&lt;---custom explosion for the asteroid. You will need a custom explosion for every single dynamic asteroid archetype you make!
+<br />
+<br />2. Asteroid_field.ini
+<br />
+<br />Make a new field, and get rid of the cube, billboards and band sections. Also remove any loot sections, as the asteroids are supposed to be indestructible, not popping apart like balloons!
+<br />
+<br />Example:
+<br />[TexturePanels
+<br />file = solar\asteroids\rock_shapes.ini
+<br />
+<br />[Field
+<br />cube_size = 1000&lt;--
+<br />fill_dist = 1&lt;--only used for the cube section, so this these  two are unimportant actually
+<br />diffuse_color = 255, 255, 255
+<br />ambient_color = 1, 1, 1
+<br />ambient_increase = 0, 0, 0
+<br />empty_cube_frequency = 0.400000&lt;-- this does not matter, either
+<br />
+<br />[properties
+<br />flag = rock_objects
+<br />flag = object_density_high
+<br />
+<br />[DynamicAsteroids
+<br />asteroid = DAsteroid_rock_10&lt;--our new DynamicAsteriod archetype
+<br />count = 100&lt;--number of asteroids of that type to be generated at once
+<br />placement_radius = 5000.000000;&lt;-- area around you in which they exist.
+<br />placement_offset = 0;&lt;-- Just leave it zero, worked best for me
+<br />max_velocity = 100.000000&lt;--self-explaining
+<br />max_angular_velocity = 1.000000&lt;-- too
+<br />color_shift = 1.000000, 1.000000, 1.000000
+<br />
+<br />3. Now build that field into a system
+<br />
+<br />[Asteroids
+<br />file = solar\asteroids\custom_asteroid_field01.ini;&lt;---name of the file for the field created above
+<br />zone = Zone_Custom_Asteroid_Field01;&lt;--name of the zone in the system, featuring the field
+<br />
+<br />(...)
+<br />
+<br />[zone
+<br />nickname = Zone_Custom_Asteroid_Field01
+<br />pos = 0, 0, 0
+<br />shape = SPHERE
+<br />size = 20000
+<br />property_flags = 68
+<br />visit = 0
+<br />density = 10
+<br />sort = 1
+<br />interference = 0.500000
+<br />pop_type = nonlootable_ast_field
+<br />
+<br />Defines asteroid field properties like position, shape and size, sensor efficiency reduced and appeareance on the map, as usual.
+<br />
+<br />4. Now the part that is the key to making them asteroids indestructible!
+<br />EXPLOSIONS.INI!
+<br />
+<br />[Debris
+<br />nickname = debris_explosion_DAsteroid_rock_10;&lt;--debris type defition
+<br />death_method = vanishing
+<br />lifetime = 0, 0;&lt;--lifetime 0, 0 makes the debris not disappear at all!
+<br />linear_drag = 0
+<br />angular_drag = 10, 10, 10;&lt;--reduces spinning. For larger asteroid 3dbs you should set this higher
+<br />
+<br />[explosion
+<br />nickname = Explosion_DAsteroid_rock_10;&lt;---the explosion archetype name from the first paragraph
+<br />lifetime = 0.000000, 0.000000
+<br />process = NONE;&lt;-- all dynamic asteroids must use an explosion with process=none.
+<br />debris_impulse = 0;&lt;--leave at zero
+<br />debris_type = debris_explosion_DAsteroid_rock_10, 1
+<br />innards_debris_start_time = 0.000000
+<br />innards_debris_num = 1
+<br />innards_debris_radius = 1
+<br />innards_debris_object = simple_explosion_DAsteroid_rock_10
+<br />
+<br />[Simple
+<br />nickname = simple_explosion_DAsteroid_rock_10&lt;;--the appearance of the asteroid after you shot it is set here!*
+<br />DA_archetype = solar\asteroids\models\ast_rock_10.3db
+<br />material_library = solar\ast_rock.mat
+<br />
+<br />Look carefully at the code. What does it do? When you shoot the asteroid, it is destroyed and triggers the explosion defined in asteroid_arch.ini. That explosion however, has no visual or sound effect, and just creates one single debris object with an unlimited lifetime. And that single debris object...
+<br />
+<br />&quot;DA_archetype = solar\asteroids\models\ast_rock_10.3db
+<br />material_library = solar\ast_rock.mat&quot;
+<br />
+<br />...has the very same appeareance as the original asteroid!
+<br />
+<br />That's the whole trick.
+<br />
+<br />If you want to have different asteroid meshes, just overlay several fields over each other, all using a different dynamic asteroid (cut down the individual count then to save performance), each with its own archetpye and explosion and simple_archetype. They can share  the same debris_type, however.
+<br />
+<br />Be warned, above 8 of those fields overlaying, Freelancer can't properly load the system, or it just takes ages to do so. I tried putting more and more fields with lots of different asteroids on top of each other, until that problem occured. Removing one field again solved it, no matter which on it is.
+<br />
+<br />Now go ahead and put this into your mods if you wish. Just make sure to give credit where it is due. <img src=smilies/icon_smile_wink.gif width=15 height=15 border=0 align=middle>
+<br />
+<br />--------------------------------------
+<br />*With little effort, you could use this to create a lot of funny things. Imagine a planet manhattan, when you shoot it, it is blown apart into hundreds of Starfliers for example, or transformed into something else, that is all possible with this function!
+<br />
+<br />Edited by - Mephistopheles on 2/6/2005 2:17:03 PM</div>
+
+			
+            </div>
+
+		
+            <ul class="profile-icons">
+        		<li class="top-icon"><a href="#top" class="top" title="Top"><span>Top</span></a></li>
+                
+            </ul>
+		
+
+            <div class="clear"></div>
+		</div>
+
+        
+
+		<div class="block-clear"></div></div></div></div><div class="block-footer"><span></span><div></div></div></div>
+	</div>
+
+
+	<div id="p354560" class="post">
+		<div class="block-border block-block block-post"><div class="block-header"><span></span><div></div></div><div class="block-content"><div class="block-inner"><div class="block-inner2">
+        <div class="post-maximize" style="display: none;"></div>
+        <div class="post-profile-block">
+        <div class="profile-block">
+        <div class="postprofile">
+            <div class="profile-top">
+                <p class="profile-author">
+                    <a class="profile-link popup-link" id="popup-link-1" href="javascript:void(0);">BlazeME</a>
+                </p>
+                
+            </div>
+            
+
+            <div class="profile-details">
+                
+            </div>
+		</div>
+		</div>
+		</div>
+		
+
+        
+		<div class="postbody">
+		    <div class="post-content">
+			
+
+			<p class="author"><a href=""><img src="./styles/ca_orbital/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a> Tue Feb 08, 2005 9:30 am <span class="post-author-inline" style="display: none;">by BlazeME</span></p>
+
+			<h3><a href="#p354560" class="post-subject"></a></h3>
+
+			
+
+			<div class="content">Good stuff. <img src=smilies/icon_smile.gif width=15 height=15 border=0 align=middle>
+<br />I would use it in Freelancer Fifth Gearm but I don't know where to put it. Excellent work anyway.</div>
+
+			
+            </div>
+
+		
+            <ul class="profile-icons">
+        		<li class="top-icon"><a href="#top" class="top" title="Top"><span>Top</span></a></li>
+                
+            </ul>
+		
+
+            <div class="clear"></div>
+		</div>
+
+        
+
+		<div class="block-clear"></div></div></div></div><div class="block-footer"><span></span><div></div></div></div>
+	</div>
+
+
+	<div id="p364828" class="post">
+		<div class="block-border block-block block-post"><div class="block-header"><span></span><div></div></div><div class="block-content"><div class="block-inner"><div class="block-inner2">
+        <div class="post-maximize" style="display: none;"></div>
+        <div class="post-profile-block">
+        <div class="profile-block">
+        <div class="postprofile">
+            <div class="profile-top">
+                <p class="profile-author">
+                    <a class="profile-link popup-link" id="popup-link-2" href="javascript:void(0);">BmB23</a>
+                </p>
+                
+            </div>
+            
+
+            <div class="profile-details">
+                
+            </div>
+		</div>
+		</div>
+		</div>
+		
+
+        
+		<div class="postbody">
+		    <div class="post-content">
+			
+
+			<p class="author"><a href=""><img src="./styles/ca_orbital/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a> Wed Apr 13, 2005 8:14 am <span class="post-author-inline" style="display: none;">by BmB23</span></p>
+
+			<h3><a href="#p364828" class="post-subject"></a></h3>
+
+			
+
+			<div class="content">Well... I'm sure that could prove usefull in my experiment.</div>
+
+			
+            </div>
+
+		
+            <ul class="profile-icons">
+        		<li class="top-icon"><a href="#top" class="top" title="Top"><span>Top</span></a></li>
+                
+            </ul>
+		
+
+            <div class="clear"></div>
+		</div>
+
+        
+
+		<div class="block-clear"></div></div></div></div><div class="block-footer"><span></span><div></div></div></div>
+	</div>
+
+
+	<div id="p366622" class="post">
+		<div class="block-border block-block block-post"><div class="block-header"><span></span><div></div></div><div class="block-content"><div class="block-inner"><div class="block-inner2">
+        <div class="post-maximize" style="display: none;"></div>
+        <div class="post-profile-block">
+        <div class="profile-block">
+        <div class="postprofile">
+            <div class="profile-top">
+                <p class="profile-author">
+                    <a class="profile-link popup-link" id="popup-link-3" href="javascript:void(0);">Ro9ue</a>
+                </p>
+                
+            </div>
+            
+
+            <div class="profile-details">
+                
+            </div>
+		</div>
+		</div>
+		</div>
+		
+
+        
+		<div class="postbody">
+		    <div class="post-content">
+			
+
+			<p class="author"><a href=""><img src="./styles/ca_orbital/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a> Fri May 06, 2005 6:32 am <span class="post-author-inline" style="display: none;">by Ro9ue</span></p>
+
+			<h3><a href="#p366622" class="post-subject"></a></h3>
+
+			
+
+			<div class="content">Yes, I think I might try to include this in a personal mod ... I'm a stickler for realism, and, as we know, vanilla FL is a little short in this respect in a few areas <img src=smilies/icon_smile_tongue.gif width=15 height=15 border=0 align=middle>
+<br />I just wonder about system resources ... ? I already have many LODs edited to make all ships visible from about 100K away (of course, they only spawn about 10 away, so only see them that far away), making the ships look much better, no suddenly-popping-onto-ship parts - or ships themselves.  But I have to wonder about combining this improved visibilty with dynamic asteroids ...
+<br />
+<br />Hmm, perhaps tonight after school I'll have time to give it a shot. Does anyone have an idea about this, about sys resources? Thanks in advance. 
+<br />
+<br />And, my kudoes on this awesome work, Mephistopheles <img src=smilies/icon_smile_wink.gif width=15 height=15 border=0 align=middle> Modders who rise to the challnge of using owe you a big one!  I'm eagerly awaiting trying Sol Mod - it looks absolutely great!
+<br />
+<br />Ro9ue
+<br />_________________________________
+<br />&quot;Do or do not. There is no try.&quot;
+<br />          <i>- Jedi Master Yoda </i></div>
+
+			
+            </div>
+
+		
+            <ul class="profile-icons">
+        		<li class="top-icon"><a href="#top" class="top" title="Top"><span>Top</span></a></li>
+                
+            </ul>
+		
+
+            <div class="clear"></div>
+		</div>
+
+        
+
+		<div class="block-clear"></div></div></div></div><div class="block-footer"><span></span><div></div></div></div>
+	</div>
+
+
+	<div id="p409060" class="post">
+		<div class="block-border block-block block-post"><div class="block-header"><span></span><div></div></div><div class="block-content"><div class="block-inner"><div class="block-inner2">
+        <div class="post-maximize" style="display: none;"></div>
+        <div class="post-profile-block">
+        <div class="profile-block">
+        <div class="postprofile">
+            <div class="profile-top">
+                <p class="profile-author">
+                    <a class="profile-link popup-link" id="popup-link-4" href="javascript:void(0);">Manhattan_Guy</a>
+                </p>
+                
+            </div>
+            
+
+            <div class="profile-details">
+                
+            </div>
+		</div>
+		</div>
+		</div>
+		
+
+        
+		<div class="postbody">
+		    <div class="post-content">
+			
+
+			<p class="author"><a href=""><img src="./styles/ca_orbital/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a> Sun Jul 30, 2006 2:29 pm <span class="post-author-inline" style="display: none;">by Manhattan_Guy</span></p>
+
+			<h3><a href="#p409060" class="post-subject"></a></h3>
+
+			
+
+			<div class="content">Sorry for gravedigging, but I think this topic is of enough importance to deal with some further important questions regarding the matter.
+<br />
+<br />I've now implemented Mephistoteles' methods into my mod, but modified them slightly, so I now have a field of large asteroids, falling apart into smaller ones on impact.
+<br />
+<br />Yet I see two most important problems here:
+<br /> a) While you can set a mass for the asteroids created on destruction (the simples), the original dynamic asteroid seems to be using hardcoded values on mass, making it about as heavy as the original small dynamic asteroids. If you have larger asteroids, this is far from realistic.
+<br /> b) Also, the dynamic asteroids seem to use hardcoded values that make them go &quot;poof&quot; on taking only one single shot, which is also rather not so good when you are dealing with larger asteroids.
+<br />
+<br />It seems there can be no direct solutions to the problem, yet some workarounds may exist. The simpe question is whether or not someone has found them or knows of them. It would be a pitty to have such a realisitc approach to asteroid fields fail because of such basic things.</div>
+
+			
+            </div>
+
+		
+            <ul class="profile-icons">
+        		<li class="top-icon"><a href="#top" class="top" title="Top"><span>Top</span></a></li>
+                
+            </ul>
+		
+
+            <div class="clear"></div>
+		</div>
+
+        
+
+		<div class="block-clear"></div></div></div></div><div class="block-footer"><span></span><div></div></div></div>
+	</div>
+
+
+	<div id="p411853" class="post">
+		<div class="block-border block-block block-post"><div class="block-header"><span></span><div></div></div><div class="block-content"><div class="block-inner"><div class="block-inner2">
+        <div class="post-maximize" style="display: none;"></div>
+        <div class="post-profile-block">
+        <div class="profile-block">
+        <div class="postprofile">
+            <div class="profile-top">
+                <p class="profile-author">
+                    <a class="profile-link popup-link" id="popup-link-5" href="javascript:void(0);">erkolos</a>
+                </p>
+                
+            </div>
+            
+
+            <div class="profile-details">
+                
+            </div>
+		</div>
+		</div>
+		</div>
+		
+
+        
+		<div class="postbody">
+		    <div class="post-content">
+			
+
+			<p class="author"><a href=""><img src="./styles/ca_orbital/imageset/icon_post_target.gif" width="11" height="9" alt="Post" title="Post" /></a> Mon Sep 04, 2006 9:48 am <span class="post-author-inline" style="display: none;">by erkolos</span></p>
+
+			<h3><a href="#p411853" class="post-subject"></a></h3>
+
+			
+
+			<div class="content">To make massive dynamic asteroids I usually make ship encounters of asteroid like ships with no engines, but I never manage to increase the amount of asteroids as I want 'em. I am also trying to make commodity pods spawn so I can increase the amount of asteroids, but to make a commodities spawn the player ship needs to hit the exploding object. Simples made from explosions despawn if they get out of camera. However there is a type of debris that dont that comes from at least Liberty Dreadnoughts.
+<br />
+<br />By the way, I heard something about someone managing to edit mass of dynamic asteroids by HEX .dll editing in one of the stickified posts in the Tutorial forums.
+<br />
+<br />Edit: Actually you could make simples from explosions that don't despawn after  getting out of camera, by changing the debris_type in the explosion arch to something like cap_ship_piece the simples will last longer. This gives the possibility to easily make a dynamic asteroid field consisting of massive asteroids by having ships or solars getting there with an explosion that make long lasting asteroid like simples and then you make the ships/solars explode by mines or radiation.
+<br />
+<br />Edited by - erkolos on 9/8/2006 11:27:11 AM</div>
+
+			
+            </div>
+
+		
+            <ul class="profile-icons">
+        		<li class="top-icon"><a href="#top" class="top" title="Top"><span>Top</span></a></li>
+                
+            </ul>
+		
+
+            <div class="clear"></div>
+		</div>
+
+        
+
+		<div class="block-clear"></div></div></div></div><div class="block-footer"><span></span><div></div></div></div>
+	</div>
+
+
+
+<div class="topic-actions">
+	<div class="buttons" id="viewtopic-buttons">
+	
+		<div class="reply-icon"><a href="" title="Post a reply"><span></span>Post a reply</a></div>
+	
+	</div>
+
+	
+		<div class="pagination">
+			6 posts
+			 &bull; Page <strong>1</strong> of <strong>1</strong>
+		</div>
+	
+</div>
+
+
+	<p></p><p><a href="./viewforum.php_f=29" class="left-box left" accesskey="r">Return to Freelancer Editing Tutorial Forum</a></p>
+
+	<br /><br />
+</div>
+
+<div>
+	<a id="bottom" name="bottom" accesskey="z"></a>
+</div>
+
+	<div id="footer-clear">&nbsp;</div>
+	<div class="copyright">
+        <br />Hosted by <a href="https://the-starport.com">The Starport</a> &bull; Theme by <a href="https://www.stsoftware.biz/" ref="nofollow">ST Software</a>
+	</div>
+
+
+</div><!-- #global -->
+
+</div>
+</body>
+</html>
